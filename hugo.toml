@@ -1,0 +1,32 @@
+baseURL = 'https://art.adinack.dev/'
+languageCode = 'en-us'
+title = 'Adin Ackerman'
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
+[menus]
+
+[[menus.main]]
+name = 'vfx'
+pageRef = '/vfx'
+weight = 1
+
+[[menus.main]]
+name = 'music'
+pageRef = '/music'
+weight = 2
+
+[taxonomies]
+tag = 'interests'
+
+[markup]
+[markup.goldmark]
+[markup.goldmark.extensions]
+[markup.goldmark.extensions.passthrough]
+enable = true
+[markup.goldmark.extensions.passthrough.delimiters]
+block = [['$$', '$$']]
+inline = [['$', '$']]
+
+[params]
+math = false
