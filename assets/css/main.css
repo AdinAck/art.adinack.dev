@@ -96,7 +96,7 @@ footer {
 }
 
 .back-button-wrapper:hover .back-button {
-    color: var(--accent-color);
+    color: var(--primary-color);
 }
 
 pre {
@@ -180,7 +180,7 @@ pre code {
 .menu-item-aux {
     margin: 0;
     display: inline;
-    color: var(--accent-color);
+    color: var(--primary-color);
     opacity: 0;
     font-family: "SF Mono";
 }
@@ -191,7 +191,7 @@ pre code {
 
 .menu-item:hover .menu-item-aux {
     opacity: 1;
-    color: var(--accent-color);
+    color: var(--primary-color);
 }
 
 header {
@@ -224,7 +224,7 @@ header {
 
 .tag:hover p {
     background-color: var(--primary-color);
-    color: var(--accent-color);
+    color: var(--primary-color);
 }
 
 .post-neck {
