@@ -301,6 +301,10 @@ header {
     color: var(--primary-color);
 }
 
+embed {
+    pointer-events: none;
+}
+
 .youtube {
     margin-left: auto;
     padding-left: 0.5rem;
