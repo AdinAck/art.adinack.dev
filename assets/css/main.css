@@ -301,7 +301,7 @@ header {
     color: var(--primary-color);
 }
 
-.github {
+.youtube {
     margin-left: auto;
     padding-left: 0.5rem;
     height: 2rem;
@@ -333,6 +333,7 @@ header {
     margin-top: 1rem;
 }
 
+.gallery video,
 .gallery img {
     margin-left: 0;
     margin-right: 1rem;

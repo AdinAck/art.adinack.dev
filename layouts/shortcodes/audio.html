@@ -1,0 +1,6 @@
+{{- $audio_src := .Get "src" -}}
+{{- $audio_type := .Get "type" -}}
+
+<audio {{ if ne (.Get "controls") "false" }}controls {{ end }}preload="auto" {{ if eq (.Get "autoplay") "true" }}autoplay {{ end }}{{ if eq (.Get "loop") "true" }}loop {{ end }}{{ if eq (.Get "muted") "true" }}muted {{ end }}>
+    <source {{ with $audio_src }}src="{{ . }}"{{ end }} {{ with $audio_type }}type="{{ . }}"{{ end }}>
+</audio>
